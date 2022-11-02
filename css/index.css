@@ -1,6 +1,12 @@
 body {
     font-family: 'Nunito', sans-serif;
   }
+
+  nav .btn-outline:hover {
+    border-radius: 10px;
+    border: 2px solid #007bff;
+    background: #007bff;
+  }
   
   header .container-fluid{
       background: #dde5f7;
@@ -346,6 +352,391 @@ body {
   .header-box5:hover , .header-box6:hover ,.header-box7:hover , .header-box8:hover {
     border: 2px solid #234CAD;
   }  
+
+  .box-1 {
+    height: 575px;
+    border-radius: 60px;
+}
+
+.box-1 .kotak-1 {
+    height: 100px;
+    width: 350px;
+    left: 107px;
+    top: 300px;
+    border-radius: 25px;
+
+}
+
+.box-1 .kotak-2 {
+    height: 75px;
+width: 75px;
+left: 482px;
+top: 55px;
+border-radius: 20px;
+
+}
+
+.box-1 .kotak-3 {
+    height: 160px;
+    width: 276px;
+    left: 482px;
+    top: 155px;
+    border-radius: 25px;
+
+}
+.box-1 .kotak-4 {
+    height: 100px;
+width: 350px;
+left: 482px;
+top: 340px;
+border-radius: 20px;
+
+
+}
+.box-1 .kotak-5 {
+    height: 160px;
+width: 130px;
+left: 482px;
+top: 465px;
+border-radius: 25px;
+
+}
+.box-1 .kotak-6 {
+    height: 100px;
+width: 350px;
+left: 583px;
+top: 30px;
+border-radius: 25px;
+
+}
+.box-1 .kotak-7 {
+    height: 100px;
+width: 300px;
+left: 783px;
+top: 155px;
+border-radius: 20px;
+
+}
+.box-1 .kotak-8 {
+    height: 75px;
+    width: 75px;
+    left: 382px;
+    top: 420px;
+    border-radius: 20px;
+
+}
+.kotak-8 i {
+    width: 40px;
+    height: 40px;
+    top: 25px;
+    left: 28px;
+    color: blue;
+    
+}
+
+.kotak-1 .lingkaran {
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+    background-color: #F2F6FF;
+}
+.kotak-1 i{
+    color: blue;
+    top: 40px;
+    left: 42px;
+    width: 40px;
+    height: 40px;
+    
+
+}
+.kotak-1 .nama-1 {
+    position: absolute;
+    color: #234CAD;
+    top: 28px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.kotak-1 .p-1 {
+    position: absolute;
+    color: #234CAD;
+    top: 52px;
+    left: 100px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.kotak-2 i {
+    width: 40px;
+    height: 40px;
+    top: 25px;
+    left: 28px;
+    color: blue;
+    
+}
+
+.kotak-3 .lingkaran-3 {
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    left: 20px;
+    top: 20px;
+    border-radius: 60px;
+    border: 2px solid #007bff;
+    background-color: #F2F6FF;
+}
+.kotak-3 i {
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 40px;
+    color: blue;
+    
+}
+.kotak-3 .nama-3 {
+    position: absolute;
+    color: #234CAD;
+    top: 28px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.kotak-3 .p-3 {
+    position: absolute;
+    color: #234CAD;
+    top: 40px;
+    left: 81px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.kotak-3 .li-kecil3 {
+    position: absolute;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 100px;
+    left: 30px;
+    background-color: #F2F6FF;
+}
+.text-3 {
+    top: 113px;
+    left: 40px;
+    color: blue;
+    font-weight: 700;
+    font-size: 10px;
+
+}
+.kotak-4 .lingkaran-4 {
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    left: 20px;
+    top: 20px;
+    border-radius: 60px;
+    background-color: #F2F6FF;
+}
+.text-4 {
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 40px;
+    color: blue;
+    font-weight: bold;
+}
+
+.kotak-4 .nama-4 {
+    position: absolute;
+    color: #234CAD;
+    top: 28px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.kotak-4 .p-4 {
+    position: absolute;
+    color: #234CAD;
+    top: 30px;
+    left: 75px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.kotak-4 .time-4 {
+    position: absolute;
+    left: 290px;
+    top: 28px;
+    color: #234CAD;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.kotak-5 .lingkaran-5 {
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    left: 32px;
+    top: 28px;
+    border-radius: 60px;
+    border: 2px solid #007bff;
+    background-color: #F2F6FF;
+}
+.kotak-5 i {
+    width: 40px;
+    height: 40px;
+    top: 50px;
+    left: 53px;
+    color: blue;
+    
+
+}
+.kotak-5 .text-5 {
+    position: absolute;
+    color: #234CAD;
+    top: 118px;
+    left: 35px;
+    font-size: 10px;
+    font-weight: 400;
+
+}
+
+.kotak-6 .lingkaran-6 {
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    left: 20px;
+    top: 20px;
+    border-radius: 60px;
+    background-color: #F2F6FF;
+}
+.text-6 {
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 40px;
+    color: blue;
+    font-weight: bold;
+}
+
+.kotak-6 .nama-6 {
+    position: absolute;
+    color: #234CAD;
+    top: 28px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.kotak-6 .p-6 {
+    position: absolute;
+    color: #234CAD;
+    top: 52px;
+    left: 100px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.kotak-6 .time-6 {
+    position: absolute;
+    left: 290px;
+    top: 28px;
+    color: #234CAD;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.kotak-7 .lingkaran-7 {
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    left: 20px;
+    top: 20px;
+    border-radius: 60px;
+    border: 2px solid #007bff;
+    background-color: #F2F6FF;
+}
+.kotak-7 i {
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    left: 42px;
+    color: blue;
+    
+
+}
+
+.kotak-7 .nama-7 {
+    position: absolute;
+    color: #234CAD;
+    top: 28px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.kotak-7 .p-7 {
+    position: absolute;
+    color: #234CAD;
+    top: 52px;
+    left: 100px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.kotak-1 , .kotak-2 , .kotak-3 , .kotak-4 , .kotak-5 , .kotak-6 , .kotak-7 , .kotak-8 {
+    background-color: #fff;
+}
+.kotak-1:hover , .kotak-2:hover , .kotak-3:hover , .kotak-4:hover , .kotak-5:hover , .kotak-6:hover , .kotak-7:hover , .kotak-8:hover {
+    border: 2px solid #007bff;
+}  
+.sub-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #234CAD;
+}
+.sub-heading span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#234CAD;
+}
+footer h6 {    
+    font-size: 20px;
+    height: 4px;
+    color: #007bff;
+    text-decoration: none;
+}
+footer p , a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ .scrollup{
+     width:40px;
+     height:40px;
+     opacity:0.3;
+     position:fixed;
+     bottom:50px;
+     right:80px;
+     display:none;
+     text-indent:-9999px;
+     background-color: #007bff;
+     /* background: url(../images/icon_top.png) no-repeat; */
+ } 
+
+
+ 
+.box-1 {
+    height: 575px;
+    border-radius: 60px;
+}
 
 
 .newsletter {
