@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,34 +7,31 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
   <link rel="icon" href="img/logo.jpg">
   <title>WeNeedProject</title>
   <style>
     .warning {
-    background-color: crimson;
-    padding: 15px 50px;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-stretch: expanded;
-    margin-top: 60px;
-    border-radius: 2px;
-    line-height: 2rem;
-  }
-    </style>
+      background-color: #FF5858;
+      color: #F2F6FF;
+      padding: 15px 50px;
+      text-align: center;
+      font-size: large;
+      font-weight: bold;
+      text-transform: capitalize;
+      font-stretch: expanded;
+      margin-top: 20px;
+      border-radius: 2px;
+      line-height: 2rem;
+    }
+  </style>
 </head>
-
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
@@ -60,8 +56,8 @@
           </li>
         </ul>
         <ul class="navbar-nav navbar-right ">
-          <button class="btn btn-outline me-3" type="submit">Search</button>
-          <button class="btn btn-outline" id="logout-btn" type="submit">Logout</button>
+          <p id="user">username</p>
+          <button class="btn btn-outline" id="logout-btn" type="submit" id="logout">Logout</button>
         </ul>
 
 
@@ -69,7 +65,7 @@
       </div>
     </div>
   </nav>
-   <header class="py-5  mb-4">
+  <header class="py-5  mb-4">
     <div class="container-fluid position-relative">
       <div class="title position-absolute">
         <span>Business <br> Communications <br> Reinvented<span>
@@ -77,14 +73,12 @@
       <div class="para-header position-absolute">
         <span> Start communicating with your business <br> team more efficiently with our app.<span>
       </div>
-
       <div class="header-box1 position-absolute  ">
         <i class="bi bi-file-earmark"></i>
       </div>
       <div class="hdr-button">
         <span class="btn1">Get the app</span>
       </div>
-
       <div class="header-box2 position-absolute  ">
         <span class="hdr-lingkaran1"></span>
         <i class="bi bi-cloud-upload"></i>
@@ -116,8 +110,6 @@
         <span class="hdr-lingkaran5"></span>
         <i class="bi bi-cloud-upload"></i>
         <span class="text-hdr5">1,73/ 2.09 GB</span>
-
-
       </div>
       <div class="header-box6 position-absolute ">
         <span class="hdr-lingkaran6"></span>
@@ -126,7 +118,6 @@
         <span class="detail6">Hi, how are you doing today?</span>
         <span class="hdr-time6">5:18 PM</span>
       </div>
-
       <div class="header-box7 position-absolute ">
         <span class="hdr-lingkaran7"></span>
         <i class="bi bi-bookmark"></i>
@@ -136,14 +127,70 @@
       <div class="header-box8 position-absolute ">
         <i class="bi bi-chat-left"></i>
       </div>
-
-
-
     </div>
-
-
   </header>
-
+  <section>
+    <div class="use-app">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="container">
+            <div class="wrapper">
+              <div class="outer">
+                <div class="card" style="--delay:-1;">
+                  <div class="content">
+                    <div class="img"><img src="img/arif.jpg" alt=""></div>
+                    <div class="details">
+                      <span class="name">M.Ariffudin Hariyansyah</span>
+                      <p>Frontend Developer</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/Hariyansyah99">Follow</a>
+                </div>
+                <div class="card" style="--delay:0;">
+                  <div class="content">
+                    <div class="img"><img src="img/wahyu.jpg" alt=""></div>
+                    <div class="details">
+                      <span class="name">Wahyu Prasetyo</span>
+                      <p>Backend Developer</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/prasetyowahyu0112">Follow</a>
+                </div>
+                <div class="card" style="--delay:1;">
+                  <div class="content">
+                    <div class="img"><img src="img/fikri.jpg" alt=""></div>
+                    <div class="details">
+                      <span class="name">Wahyu Muhammad Fikri</span>
+                      <p>UI/UX Developers</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/wahyumuhammadfikri">Follow</a>
+                </div>
+                <div class="card" style="--delay:2;">
+                  <div class="content">
+                    <div class="img"><img src="img/elon.jpg" alt=""></div>
+                    <div class="details">
+                      <span class="name">Elon Musk</span>
+                      <p>Backend Developer</p>
+                    </div>
+                  </div>
+                  <a href="https://id.wikipedia.org/wiki/Elon_Musk">Follow</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 position-relative">
+          <div class="title2 ">
+            <span class="para-title2">Use our app to <br> send messages <br> to your team</span>
+            <p class="paragraf2">We offer really easy communications for <br> all businesses from small to large.<p>
+                <div class="para-button2">
+                  <span class="btn2">Get the app</span>
+                </div>
+          </div>
+        </div>
+      </div>
+  </section>
   <section>
     <div class="container-fluid">
       <div class="col-lg-12 col-md-12 m-auto">
@@ -153,23 +200,19 @@
         </div>
       </div>
       <div class="container mt-5 box-1 position-relative" style="background: 
-            #F2F6FF; ">
+            #dde5f7; ">
         <div class="position-absolute  kotak-1">
           <span class="lingkaran"></span>
           <i class="bi bi-bookmark position-absolute"></i>
           <span class="nama-1">Message Saved</span>
           <span class="p-1">You have successfully saved this message</span>
         </div>
-
         <div class="position-absolute  kotak-8">
           <i class="bi bi-chat-left position-absolute"></i>
         </div>
-
         <div class="position-absolute end-50 kotak-2">
           <i class="bi bi-heart position-absolute"></i>
         </div>
-
-
         <div class="position-absolute end-50 kotak-3">
           <span class="lingkaran-3"></span>
           <i class="bi bi-calendar-event position-absolute"></i>
@@ -183,10 +226,7 @@
           <span class="text-3 position-absolute" style="margin-left: 33px;">MU</span>
           <span class="text-3 position-absolute" style="margin-left: 66px;">Oi</span>
           <span class="text-3 position-absolute" style="margin-left: 90px;">+3</span>
-
         </div>
-
-
         <div class="position-absolute  end-50 kotak-4">
           <span class="lingkaran-4"></span>
           <span class="text-4 position-absolute">AS</span>
@@ -194,15 +234,11 @@
           <span class="p-4">Could please call me now? It is i…</span>
           <span class="time-4">5:18 PM</span>
         </div>
-
-
         <div class="position-absolute  end-50 kotak-5">
           <span class="lingkaran-5"></span>
           <i class="bi bi-cloud-upload position-absolute"></i>
           <span class="text-5">6,02/7,98 GB</span>
         </div>
-
-
         <div class="position-absolute  end-50 kotak-6">
           <span class="lingkaran-6"></span>
           <span class="text-6 position-absolute">BS</span>
@@ -219,7 +255,69 @@
       </div>
     </div>
   </section>
+  <section class="pricing ">
+    <div class="container-fluid ">
+      <div class="container p-5">
+        <div class="row ">
+          <div class="col-lg-12 col-md-12 m-auto">
+            <div class="sub-heading text-center mt-5">
+              <h2>Explore our simple pricing</h2>
+              <span>We offer one of the most competitive prices on the <br> market for everyone.</span>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4  col-sm-12 mb-4">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <div class="text-center p-3">
+                  <h5 class="card-title">Basic</h5>
+                  <br><br>
+                  <span class="h2">$9</span> <br>
+                  <small>Per month</small>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  col-sm-12 mb-4">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <div class="text-center p-3">
+                  <h5 class="card-title">Premium</h5>
+                  <br><br>
+                  <span class="h2">$29</span> <br>
+                  <small>Per month</small>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Get started</button>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4  mb-4 col-sm-12 ">
+            <div class="card shadow-lg">
+              <div class="card-body">
+                <div class="text-center p-3">
+                  <h5 class="card-title">Enterprise</h5>
+                  <br><br>
+                  <span class="h2">$129</span> <br>
+                  <small>Per month</small>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
   <section>
     <div class="container-fluid " style="margin-right: 100px;">
       <div class="container newsletter ">
@@ -240,14 +338,11 @@
               <button class="btn btn-news" type="button" id="button-addon2"><i
                   class="bi bi-arrow-right-short "></i></button>
             </div>
-
           </div>
         </div>
-
       </div>
     </div>
   </section>
-
   <footer>
     <section class="">
       <div class="container text-center text-lg-center mt-5">
@@ -298,7 +393,7 @@
       </div>
     </section>
 
-    <div class="text-center p-4" style="background-color: #F2F6FF;">
+    <div class="text-center p-4" style="background-color: #dde5f7;">
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="#">WeNeedProject</a>
     </div>
@@ -309,25 +404,19 @@
 
 
   <script>
-   var username = document.getElementById('username')
-        if (localStorage.getItem('username')) {
-            username.innerText = localStorage.getItem('username')
-        }
+    var username = document.getElementById('user')
+    if (localStorage.getItem('username')) {
+      username.innerText = localStorage.getItem('username')
+    }
 
-
-        const logout_button = document.getElementById('logout-btn')
-
-
-        logout_button.addEventListener('click', function () {
-            localStorage.removeItem('login_email')
-            localStorage.removeItem('login_sandi')
-            window.location = 'index.html'
-        })
-
-
- 
-</script>
-<script src="js/useractivity.js"></script>
+    const logout_button = document.getElementById('logout-btn')
+    logout_button.addEventListener('click', function () {
+      localStorage.removeItem('login_email')
+      localStorage.removeItem('login_sandi')
+      window.location = 'index.html'
+    })
+  </script>
+  <script src="js/useractivity.js"></script>
 </body>
 
 </html>

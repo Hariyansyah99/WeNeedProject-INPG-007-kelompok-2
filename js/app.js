@@ -38,7 +38,7 @@ function store(event) {
     } else {
         alert('berhasil')
         window.open(
-            "home.html", "_self"
+            "index.html", "_self"
         )
     }
 }
