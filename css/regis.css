@@ -1,0 +1,53 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #28334AFF;
+}
+
+  
+input {
+    display: block;
+    align-self: center;
+    padding: 6px 16px;
+    font-size: 1.5em;
+    /* margin: 10px auto; */
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 5px solid #ccc;
+    outline: none !important;
+    transition: 0.25s;
+}
+
+input[type="text"]:focus {
+    padding: 15px 20px;
+    width: 100%;
+}
+
+input[type="password"]:focus {
+    padding: 15px 20px;
+    width: 100%;
+}
+
+input.valid {
+    border-color: #2146C7;
+}
+
+input.invalid {
+    border-color: #E14D2A;
+}
+
+input+p {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15px;
+    color: #E14D2A;
+    opacity: 0;
+    height: 0;
+    transition: 0.25s;
+}
+
+input.invalid+p {
+    opacity: 1;
+    height: auto;
+}
