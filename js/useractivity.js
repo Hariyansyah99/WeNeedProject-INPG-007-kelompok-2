@@ -27,7 +27,7 @@ function callTimeoutFunc() {
     const div = document.createElement("div"); 
     div.className = "warning";
     div.textContent =
-        "Anda telah tidak aktif untuk beberapa waktu dan akan logout otomatis 1 maenit dari sekarang!";
+        "Anda sudah tidak aktif untuk beberapa waktu dan akan logout otomatis 1 menit dari sekarang!";
     body.prepend(div);
     logoutTimeoutID = setTimeout(() => {
         window.location.href = "index.html";
